@@ -14,4 +14,5 @@ int main() {
     int v1, v2;
     cin >> v1 >> v2;
     cout << v1 << "与" << v2 << "的和为" << v1 + v2 << endl; 
+    return 0;
 }
