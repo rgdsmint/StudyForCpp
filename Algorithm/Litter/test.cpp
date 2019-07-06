@@ -2,5 +2,5 @@
 #include <cstdio>
 
 int main() {
-    printf("%d", pow(-1));
+    printf("%d", sqrt(-1));
 }
