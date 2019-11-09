@@ -1,3 +1,4 @@
+// 重定向文件输入输出
 #define LOCAL
 #include <cstdio>
 #define INF 1000000000
