@@ -1,4 +1,5 @@
 #include <iostream>
+#define maxn 1010
 
 int main() {
     using namespace std;
