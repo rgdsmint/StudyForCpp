@@ -9,6 +9,12 @@ int main() {
     int n, k, first = 1;
     memset(a, 0, sizeof(a));
     cin >> n >> k;
-    
+    for (int i = 1; i <= k; i++) {
+        for (int j = 1; j <= n; j++) {
+            if (j % i == 0) {
+                a[j] = !a[j];
+            }
+        }
+    }
     return 0;
 }
