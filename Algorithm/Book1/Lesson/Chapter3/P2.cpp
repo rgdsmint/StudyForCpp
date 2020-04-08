@@ -16,5 +16,15 @@ int main() {
             }
         }
     }
+    for (int i = 1; i <= n; i++) {
+        if (a[i]) {
+            if (first) {
+                first = 0;
+            } else {
+                cout << " ";
+            }
+            cout << i;
+        }
+    }
     return 0;
 }
