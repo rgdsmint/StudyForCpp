@@ -12,7 +12,7 @@ int main() {
     for (int i = 1; i <= k; i++) {
         for (int j = 1; j <= n; j++) {
             if (j % i == 0) {
-                a[j] = !a[j];
+                a[j] = !a[j]; //控制是0还是1
             }
         }
     }
