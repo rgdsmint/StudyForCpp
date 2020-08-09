@@ -2,16 +2,16 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
+int exchange(int& a, int& b);
 int main() {
-    int a[100];
-    int n, k, first = 1;
-    memset(a, 0, sizeof(a));
-    cout << a[0];
-    a[0] = !a[0];
-    cout << a[0];
-    a[0] = !a[0];
-    cout << a[0];
-    a[0] = !a[0];
-    cout << a[0];
+    int a = 10, b =20;
+    exchange(a, b);
+    cout << a << "  " << b << endl;
     return 0;
+}
+int exchange(int& a, int&b){
+    int temp;
+    temp = *&a;
+    *&a = *&b;
+    *&b = temp;
 }
