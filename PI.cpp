@@ -6,6 +6,7 @@ using namespace std;
 int getLength(long long x);
 int main() {
     ios::sync_with_stdio(false);
+    cin.tie(0);
     long long flag;
     clock_t begin, end;
     while (true) {
