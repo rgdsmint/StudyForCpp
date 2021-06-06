@@ -4,7 +4,6 @@
 #include <iomanip>
 using namespace std;
 
-
 int getLength(long long x);
 int main() {
     ios::sync_with_stdio(false);
