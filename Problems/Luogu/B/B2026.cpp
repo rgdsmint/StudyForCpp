@@ -1,9 +1,11 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-	int a;
-	cin >> a;
-
+	double a,b;
+	int c;
+	cin >> a >> b;
+	c = a/b;
+	printf("%lf",a - c*b);
+	
 	return 0;
 }

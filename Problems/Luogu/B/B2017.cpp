@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-	int a;
+	char a;
 	cin >> a;
-
+	printf("%d", a);
 	return 0;
 }

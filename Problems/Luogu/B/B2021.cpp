@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-	int a;
+	float a;
 	cin >> a;
-
+	printf("%.3f", a);
 	return 0;
 }

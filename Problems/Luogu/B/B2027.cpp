@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-	int a;
+	double a;
 	cin >> a;
-
+	printf("%.5lf", 4.0/3.0*3.14*a*a*a);
 	return 0;
 }
