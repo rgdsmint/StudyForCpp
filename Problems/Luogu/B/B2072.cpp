@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-	int a;
+	double a;
 	cin >> a;
-
+	cout << (1+a)*a/2;
 	return 0;
 }
