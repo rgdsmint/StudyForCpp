@@ -2,8 +2,12 @@
 using namespace std;
 
 int main() {
-	int a;
-	cin >> a;
-
+	char a;
+	int count = 0;
+	while(cin >> a){
+		if(isdigit(a))
+			count++;
+	}
+	cout << count;
 	return 0;
 }
